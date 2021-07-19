@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<configuration date="2016/06/05" author="e.World Technology Ltd.">
+<project id="{2B7992FC-5911-46A7-9310-01F4D4225C49}" file="C:\Users\fiuza\Documents\PHPMaker\Projects\igrejasystem.pmp" name="sistemagestaoigreja" product="PHPMaker" version="11.0" datetime="2016/06/05 17:31:44" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0">
+<table id="agenda" name="agenda" caption="Agenda" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Agenda_Morta" name="Agenda_Morta" caption="Agenda Morta" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="agsolucao" name="agsolucao" caption="agsolucao" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="ajuda" name="ajuda" caption="Editor da Ajuda do Sistema" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Aniversariantes" name="Aniversariantes" caption="Lista de Aniversariantes do Mês" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="audittrail" name="audittrail" caption="Auditoria de Acessos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="bancos" name="bancos" caption="Bancos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="bens_patrimoniais" name="bens_patrimoniais" caption="Bens Patrimoniais" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="caixadodia" name="caixadodia" caption="Caixa - Lançamento de Hoje" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="cargoscelulas" name="cargoscelulas" caption="Cargos nas Células" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="cargosministeriais" name="cargosministeriais" caption="Cargos Ministeriais" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="cartas" name="cartas" caption="Configuração de Cartas" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="celulas" name="celulas" caption="Células" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="configuracoes" name="configuracoes" caption="Configurações do Sistema" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="conta_bancaria" name="conta_bancaria" caption="Conta bancária" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="contatos" name="contatos" caption="Contatos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="controle_tarefas" name="controle_tarefas" caption="Controle de Tarefas" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="dias_semana" name="dias_semana" caption="Dias semana" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="dizimos" name="dizimos" caption="Dízimos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="dizimosmesatual" name="dizimosmesatual" caption="Relatório: Dízimos do Mês atual" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="dizimosporcriterio" name="dizimosporcriterio" caption="Relatório: Dízimo por Critério" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Emailsporfuncao" name="Emailsporfuncao" caption="Emailspor Cargo" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="escolaridade" name="escolaridade" caption="Escolaridade" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="estado_patrimonio" name="estado_patrimonio" caption="estado patrimonio" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="estudos_biblicos" name="estudos_biblicos" caption="Acompamento do Estudos Bíblicos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="EtiquetasMalaDireta" name="EtiquetasMalaDireta" caption="Etiquetas para Mala Direta" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="eventos" name="eventos" caption="Eventos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="fin_centro_de_custo" name="fin_centro_de_custo" caption="Centro de Custo" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="fin_conta_caixa" name="fin_conta_caixa" caption="Conta de Caixa" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="fin_forma_pgto" name="fin_forma_pgto" caption="Formas de Pagto" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="fin_situacao" name="fin_situacao" caption="Situação do Lançamento" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="financeiro" name="financeiro" caption="Financeiro" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="funcionarios" name="funcionarios" caption="Funcionários" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="funcoes_exerce" name="funcoes_exerce" caption="Funções" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="igrejas" name="igrejas" caption="Igrejas" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Lista_de_Emails" name="Lista_de_Emails" caption="Lista de todos Emails" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lista_videos" name="lista_videos" caption="Lista de Vídeos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="ListadeEmailporCargo" name="ListadeEmailporCargo" caption="Lista de Emails por Cargo" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="ListaEmailsporFuncao" name="ListaEmailsporFuncao" caption="Lista de Emails por Função" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="membro" name="membro" caption="Membros &amp; Discipulos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="meses" name="meses" caption="meses" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="meus_lembretes" name="meus_lembretes" caption="meus lembretes" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="modelo_igreja" name="modelo_igreja" caption="Modelo da Igreja" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="ofertasporcriterio" name="ofertasporcriterio" caption="Relatório: Ofertas por Critério" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="ofertassmesatual" name="ofertassmesatual" caption="Relatório: Ofertas Mês Atual" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="plano_oracao" name="plano_oracao" caption="Plano de Oração" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="print_cartaexclusao" name="print_cartaexclusao" caption="Carta de Exclusão" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="print_cartarecomendacao" name="print_cartarecomendacao" caption="Carta de Recomendação" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="print_transferencia" name="print_transferencia" caption="Carta de Transferência" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="prioridade" name="prioridade" caption="Prioridade" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="rede_ministerial" name="rede_ministerial" caption="Rede Ministerial" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="RelatorioAdmissao" name="RelatorioAdmissao" caption="Relatório por Data Admissão" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="RelatorioCasamento" name="RelatorioCasamento" caption="Relatório por Data de Casamento" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="situacao_membro" name="situacao_membro" caption="Situação do Membro" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="smtp" name="smtp" caption="Configuração de SMTP" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tipo_admissao" name="tipo_admissao" caption="Tipos de Admissão" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="ufs" name="ufs" caption="UFs" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="userlevelpermissions" name="userlevelpermissions" caption="Permissões" userlevel="0,&quot;Default&quot;,0" priv="0"/>
+<table id="userlevels" name="userlevels" caption="Níveis de Acesso" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="usuarios" name="usuarios" caption="Usuários" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="RelatoriodataBatismo" name="RelatoriodataBatismo" caption="Relatório por Data de Batismo" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="print_cartaoficio" name="print_cartaoficio" caption="Carta Ofício" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>

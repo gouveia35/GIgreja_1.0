@@ -1,0 +1,21 @@
+Subject: Solicitação de reset de Senha
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: HTML
+
+Caro Sr / Sra,
+
+Para iniciar o processo de redefinição de senha para sua Conta (User Name: <!--$UserName-->), por favor, clique no link abaixo:
+
+<!--$ActivateLink-->
+
+Se clicar no link acima não funcionar, copie e cole o URL em uma nova janela do navegador para executar a redefinição de senha.
+
+Você pode desconsiderar este e-mail se você não iniciou a solicitação de redefinição de senha. Outro usuário pode ter inserido o seu endereço de e-mail por engano ao tentar redefinir sua senha.
+
+Atenciosamente,
+Support - Este email é automático.
+
+

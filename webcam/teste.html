@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script language="JavaScript" src="jquery/jquery-1.11.1.min.js"></script>
+		<script language="JavaScript" src="swfobject.js"></script>
+		<script language="JavaScript" src="scriptcam.min.js"></script>
+		<script language="JavaScript"> 
+$(document).ready(function() {
+    $("#webcam").scriptcam({
+        showMicrophoneErrors: false,
+        onError: onError,
+        cornerRadius: 20,
+        disableHardwareAcceleration: 1,
+        cornerColor: 'e3e5e2',
+        onWebcamReady: onWebcamReady,
+        uploadImage: 'upload.gif',
+        onPictureAsBase64: base64_tofield_and_image
+    });
+});
+
+function base64_tofield() {
+    $('#formfield').val($.scriptcam.getFrameAsBase64());
+};
+
+function base64_toimage() {
+    $('#image').attr("src", "data:image/png;base64," + $.scriptcam.getFrameAsBase64());
+    $.ajax({
+        type: "POST",
+        url: "snapshot.php",
+        data: {
+            foto: $.scriptcam.getFrameAsBase64()
+        }
+    }).done(function(msg) {
+        $("#x_Foto").val(msg); /* campo do formulario de retorno */
+    });
+};
+
+function base64_tofield_and_image(b64) {
+    $('#formfield').val(b64);
+    $('#image').attr("src", "data:image/png;base64," + b64);
+};
+
+function changeCamera() {
+    $.scriptcam.changeCamera($('#cameraNames').val());
+}
+
+function onError(errorId, errorMsg) {
+    $("#btn1").attr("disabled", true);
+    $("#btn2").attr("disabled", true);
+    alert(errorMsg);
+}
+
+function onWebcamReady(cameraNames, camera, microphoneNames, microphone, volume) {
+    $.each(cameraNames, function(index, text) {
+        $('#cameraNames').append($('<option></option>').val(index).html(text))
+    });
+    $('#cameraNames').val(camera);
+} </script> 
+	</head>
+	<body>
+		<div style="width:330px;float:left;">
+ <div id="webcam"></div>
+		</div>
+		<div style="width:105px;float:left;">
+ <p><button class="btn btn-small" id="btn2" onclick="base64_toimage()">Fotografar</button></p>
+		</div>
+		<div>
+ <p><img id="image"/></p>
+		</div>
+	</body>
+</html>

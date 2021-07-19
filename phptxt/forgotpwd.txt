@@ -1,0 +1,19 @@
+Subject: Solicitação de senha
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: HTML
+
+Caro Sr / Sra,
+
+Veja abaixo as informações solicitadas:
+
+
+Nome de usuário: <!--$UserName-->
+Senha: <!--$Password-->
+
+Por favor, não hesite em contactar-nos em caso não consiga acesso.
+
+Atenciosamente,
+Suporte - Este é um email automático.
